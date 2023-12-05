@@ -1,23 +1,30 @@
 
 const itemFrame = document.querySelector('.portfolio__item__list');
 const itemList = [{
-  item: '',
+  name: '08 杉山花代',
   img: 'img/',
-  url:'',
+  url:'https://hanayosugiyama.github.io/portfolio874/',
  
 },  {
-    item: '',
+    name: '',
     img: 'img/',
     url:'',
    
   }, {
-    item: '',
+    name: '',
     img: 'img/',
     url:'',
    
   }];
 
-    const itemContent = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${item}"></div>
-  <div class="portfolio__item__text"><b>${item}</b></div></a></li>`;
+
+  itemList.forEach((i) => {
+    const {
+      name,
+      img,
+      url,
+    } = i;
+    const itemContent = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  <div class="portfolio__item__text"><b>${name}ポートフォリオ</b></div</a></li>`;
     itemFrame.insertAdjacentHTML('beforeend', itemContent);
-  
+  })
