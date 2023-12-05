@@ -1,5 +1,5 @@
-const itemFrame = document.querySelector('.portfolio__item__list');
-const itemList = [{
+const itemFrame46 = document.querySelector('.portfolio__item__46list');
+const itemList46 = [{
   name: '03 江藤',
   img: 'img/',
   url: '',
@@ -115,13 +115,13 @@ const itemList = [{
 }];
 
 
-itemList.forEach((i) => {
+itemList46.forEach((i) => {
   const {
     name,
     img,
     url,
   } = i;
-  const itemContent = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  const itemContent46 = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
   <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
-  itemFrame.insertAdjacentHTML('beforeend', itemContent);
+  itemFrame46.insertAdjacentHTML('beforeend', itemContent46);
 })
