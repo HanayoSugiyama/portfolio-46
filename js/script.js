@@ -6,12 +6,12 @@ const itemList = [{
   url:'https://hanayosugiyama.github.io/portfolio874/',
  
 },  {
-    name: '',
+    name: '08 杉山花代',
     img: 'img/',
     url:'',
    
   }, {
-    name: '',
+    name: '08 杉山花代',
     img: 'img/',
     url:'',
    
