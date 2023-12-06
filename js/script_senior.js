@@ -1,15 +1,15 @@
 //45期生
 const itemFrame45 = document.querySelector('.portfolio__item__45list');
 const itemList45 = [{
-  name: 'aa',
+  name: 'キタヤマ',
   img: 'img/',
   url: 'https://k-ktym.gloomy.jp/portfolio/index.html',
 }, {
-  name: 'aa',
+  name: '増田',
   img: 'img/',
   url: 'https://www.masudakeishi.site/',
 }, {
-  name: 'aa',
+  name: '代田',
   img: 'img/',
   url: 'https://misuzudaida.com',
 }];
@@ -17,7 +17,7 @@ const itemList45 = [{
 
 itemList45.forEach((i) => {
   const { name,img,url, } = i;
-  const itemContent45 = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  const itemContent45 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
   <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
   itemFrame45.insertAdjacentHTML('beforeend', itemContent45);
 })
@@ -25,15 +25,15 @@ itemList45.forEach((i) => {
 //43期生
 const itemFrame43 = document.querySelector('.portfolio__item__43list');
 const itemList43 = [{
-  name: 'bb',
+  name: '鍵山',
   img: 'img/',
   url: 'https://naruminglandoll.com/',
 }, {
-  name: 'bb',
+  name: '仁田',
   img: 'img/',
   url: 'https://kanan-portfolio.studio.site/',
 }, {
-  name: 'bb',
+  name: '福本',
   img: 'img/',
   url: 'http://www.fukumoto-yuka.com',
 }];
@@ -41,7 +41,7 @@ const itemList43 = [{
 
 itemList43.forEach((i) => {
   const { name,img,url, } = i;
-  const itemContent43 = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  const itemContent43 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
   <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
   itemFrame43.insertAdjacentHTML('beforeend', itemContent43);
 })
@@ -49,31 +49,23 @@ itemList43.forEach((i) => {
 //42期生
 const itemFrame42 = document.querySelector('.portfolio__item__42list');
 const itemList42 = [{
-  name: 'aa',
+  name: '内田',
   img: 'img/',
   url: 'http://uchida-0105.littlestar.jp/portfolio/',
 }, {
-  name: 'aa',
+  name: '尾川',
   img: 'img/',
   url: 'http://akevi.site/',
 },{
-  name: 'aa',
-  img: 'img/',
-  url: 'https://kataraoppo.com/',
-},{
-  name: 'aa',
+  name: '中元',
   img: 'img/',
   url: 'https://misa-33.com',
-}, {
-  name: 'aa',
-  img: 'img/',
-  url: 'https://kataraoppo.com/',
 }];
 
 
 itemList42.forEach((i) => {
   const { name,img,url, } = i;
-  const itemContent42 = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  const itemContent42 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
   <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
   itemFrame42.insertAdjacentHTML('beforeend', itemContent42);
 })
@@ -81,11 +73,11 @@ itemList42.forEach((i) => {
 //41期生
 const itemFrame41 = document.querySelector('.portfolio__item__41list');
 const itemList41 = [{
-  name: 'bb',
+  name: '長濱',
   img: 'img/',
   url: 'https://nagahama378-portfolio.com/',
 }, {
-  name: 'bb',
+  name: '石川',
   img: 'img/',
   url: 'https://chiemiid.studio.site',
 }];
@@ -101,11 +93,7 @@ itemList41.forEach((i) => {
 //38期生
 const itemFrame38 = document.querySelector('.portfolio__item__38list');
 const itemList38 = [{
-  name: 'aa',
-  img: 'img/',
-  url: 'http://nacco.site/',
-}, {
-  name: 'aa',
+  name: '内山',
   img: 'img/',
   url: 'https://onl.tw/QAEJ1pj',
 }];
@@ -121,11 +109,11 @@ itemList38.forEach((i) => {
 //37期生
 const itemFrame37 = document.querySelector('.portfolio__item__37list');
 const itemList37 = [{
-  name: 'bb',
+  name: 'ヤマムラ',
   img: 'img/',
   url: 'https://yukino-portfolio.studio.site/',
 }, {
-  name: 'bb',
+  name: '清水',
   img: 'img/',
   url: 'https://kayana-shimizu.github.io/kayana/',
 },{
