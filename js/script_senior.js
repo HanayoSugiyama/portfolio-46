@@ -116,14 +116,6 @@ const itemList37 = [{
   name: '清水',
   img: 'img/',
   url: 'https://kayana-shimizu.github.io/kayana/',
-},{
-  name: 'bb',
-  img: 'img/',
-  url: 'http://purplishlion.nobushi.jp/',
-}, {
-  name: 'bb',
-  img: 'img/',
-  url: 'https://norido-portfolio.com/',
 }];
 
 
@@ -137,7 +129,7 @@ itemList37.forEach((i) => {
 //35期生
 const itemFrame35 = document.querySelector('.portfolio__item__35list');
 const itemList35 = [{
-  name: 'aa',
+  name: '早水',
   img: 'img/',
   url: 'http://catch-star-1234.gonna.jp/portfolio/',
 }];
@@ -153,7 +145,7 @@ itemList35.forEach((i) => {
 //33期生
 const itemFrame33 = document.querySelector('.portfolio__item__33list');
 const itemList33 = [{
-  name: 'bb',
+  name: '木村',
   img: 'img/',
   url: 'http://pandasenpai.schoolbus.jp/',
 }];
