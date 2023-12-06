@@ -116,12 +116,8 @@ const itemList46 = [{
 
 
 itemList46.forEach((i) => {
-  const {
-    name,
-    img,
-    url,
-  } = i;
-  const itemContent46 = `<li><a href="${url}" class="gallery" data-group="gallery"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  const { name,img,url, } = i;
+  const itemContent46 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
   <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
   itemFrame46.insertAdjacentHTML('beforeend', itemContent46);
 })
