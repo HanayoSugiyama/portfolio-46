@@ -1,115 +1,41 @@
 const itemFrame46 = document.querySelector('.portfolio__item__46list');
-const itemList46 = [{
-  name: '03 江藤',
-  img: 'img/',
-  url: '',
-}, {
-  name: '04 奥田',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '05 梶原',
-  img: 'img/',
-  url: '',
-
-}, {
+const itemList46 = [ /* {
   name: '06 木根森',
   img: 'img/',
   url: '',
 
-}, {
+},*//* {
   name: '07 末永',
   img: 'img/',
   url: '',
 
-}, {
+},*/ {
   name: '08 杉山',
   img: 'img/',
   url: '',
 
-}, {
-  name: '09 園田',
+}, /*{
+  name: '12 竹本',
+  img: 'img/',
+  url: '',
+
+}, */ {
+  name: '19 濱野',
   img: 'img/',
   url: '',
 
 }, {
-  name: '10 高橋',
+  name: '21 前田',
   img: 'img/',
   url: '',
 
-}, {
-  name: '11 ',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '12',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '13',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '14',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '15',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '16',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '17',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '18',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '19',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '20 ',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '21',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '22',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '23',
-  img: 'img/',
-  url: '',
-
-}, {
-  name: '25',
+},  {
+  name: '23 村上',
   img: 'img/',
   url: '',
 
 },{
-  name: '26',
+  name: '26 吉村',
   img: 'img/',
   url: '',
 }];
