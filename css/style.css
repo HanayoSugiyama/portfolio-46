@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-/*共通設定*/
+/*----------------------
+        共通設定
+----------------------*/
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -10,7 +12,6 @@
 html {
 	font-size: 100%;
 }
-
 
 body {
     font-family: 'Kaisei Opti', serif;
@@ -25,7 +26,7 @@ img {
 }
 
 a {
-	color: #333333;
+	color: #444444;
 	text-decoration: none;
 }
 
@@ -40,6 +41,10 @@ ol {
     margin: 0 auto;
 }
 
+.header__nav__list{
+    display: flex;
+}
+
 .portfolio__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
@@ -49,8 +54,13 @@ ol {
     background-color: aqua;/*仮　写真に置き変わる*/
 }
 
+/*---------------------
+        46期生部分　　　
+---------------------*/
+
 .kajimura__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
     gap: 2rem;
 }
+
