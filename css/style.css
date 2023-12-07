@@ -69,6 +69,10 @@ header {
     justify-content: center;
 }
 
+.header__nav__item {
+    padding: 1rem;
+}
+
 
 /*ポートフォリオ*/
 .portfolio__grid {
