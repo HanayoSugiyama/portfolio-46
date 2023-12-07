@@ -17,6 +17,21 @@ body {
     font-family: 'Kaisei Opti', serif;
     font-size: 16px;
     color: #333333;
+    background:linear-gradient(45deg, #f1cff2,#ead8f0,#d1f6dc);/*グラデーションを定義*/
+	background-size: 200% 200%;/*サイズを大きくひきのばす*/
+	animation: bggradient 20s ease infinite;
+}
+
+@keyframes bggradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
@@ -41,10 +56,21 @@ ol {
     margin: 0 auto;
 }
 
-.header__nav__list{
-    display: flex;
+/*ヘッダー*/
+header {
+    line-height: 100px;
+    text-align: center;
 }
 
+/*nav*/
+.header__nav__list{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+
+
+/*ポートフォリオ*/
 .portfolio__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
@@ -54,8 +80,15 @@ ol {
     background-color: aqua;/*仮　写真に置き変わる*/
 }
 
+/*フッター*/
+footer {
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 /*---------------------
-        46期生部分　　　
+        46期生部分
 ---------------------*/
 
 .kajimura__grid {
