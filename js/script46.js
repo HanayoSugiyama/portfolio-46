@@ -12,7 +12,7 @@ const itemList46 = [ /* {
 },*/ {
   name: '08 杉山',
   img: 'img/',
-  url: '',
+  url: 'https://hanayosugiyama.github.io/portfolio874/',
 
 }, /*{
   name: '12 竹本',
@@ -27,17 +27,17 @@ const itemList46 = [ /* {
 }, {
   name: '21 前田',
   img: 'img/',
-  url: '',
+  url: 'https://erihanapcschool.github.io/portfolio/',
 
 },  {
   name: '23 村上',
   img: 'img/',
-  url: '',
+  url: 'https://yurina.cwith.jp',
 
 },{
   name: '26 吉村',
   img: 'img/',
-  url: '',
+  url: 'https://yoshyoshyosh.com/portfolio/',
 }];
 
 
