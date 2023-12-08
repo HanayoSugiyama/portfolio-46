@@ -58,11 +58,10 @@ ol {
 
 /*ヘッダー*/
 header {
-    line-height: 100px;
+   margin:0 auto;
     text-align: center;
 }
 
-/*nav*/
 .header__nav__list{
     display: flex;
     font-size: 24px;
@@ -91,6 +90,50 @@ footer {
     vertical-align: middle;
 }
 
+/*スクロール制御*/
+#header{
+	position: fixed;/*Header固定*/
+	top:0;
+	height: 150px;/*高さ指定*/
+	z-index: 2;
+	width:100%;
+    background-color: #f1cff2;
+}
+
+#container{
+	position: relative;
+	z-index: 1;/*header とfooterを手前にするため数字を小さく*/
+}
+
+section.fixed{
+	position: -webkit-sticky;/*Safari*/
+	position: sticky;
+	top:150px;/*Header高さ分で止まるようにする*/
+}
+
+section.fixed:last-of-type{
+	padding-top:70px;
+/*最後のセクションだけ止まらないため、エリア内の情報が少ない時は、Header分の高さをpadding-topに追加して上部が見えるようにする*/
+}
+#footer{
+	position: relative;
+	z-index: 2;
+}
+
+/*＝＝＝＝＝タブレット以下の見え方 ＝＝＝＝＝*/
+
+@media screen and (max-width:768px){
+	section.fixed{
+	position:relative!important;/*sticky解除*/
+	top:0;/*70px⇒0pxに戻す*/
+}
+	section.fixed:first-of-type{
+	padding-top:100px;
+	/*最初の要素は上部にHeaderの高さ以上の余白をとる*/
+	}
+}
+
+
 /*---------------------
         46期生部分
 ---------------------*/
@@ -100,4 +143,10 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
     gap: 2rem;
 }
+
+.line {
+    max-width: 1200px;
+    height: 120px;
+}
+
 
