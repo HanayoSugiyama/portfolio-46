@@ -11,7 +11,7 @@ const itemList46 = [ /* {
 
 },*/ {
   name: '08 杉山',
-  img: 'img/',
+  img: 'img/46/46sugiyama.png',
   url: 'https://hanayosugiyama.github.io/portfolio874/',
 
 }, /*{
@@ -26,17 +26,17 @@ const itemList46 = [ /* {
 
 }, {
   name: '21 前田',
-  img: 'img/',
+  img: 'img/46/46maeda.png',
   url: 'https://erihanapcschool.github.io/portfolio/',
 
 },  {
   name: '23 村上',
-  img: 'img/',
+  img: 'img/46/46murakami.png',
   url: 'https://yurina.cwith.jp',
 
 },{
   name: '26 吉村',
-  img: 'img/',
+  img: 'img/46/46yoshimura.png',
   url: 'https://yoshyoshyosh.com/portfolio/',
 }];
 
