@@ -17,26 +17,10 @@ body {
     font-family: 'Kaisei Opti', serif;
     font-size: 16px;
     color: #333333;
-    background: linear-gradient(45deg, #f1cff2, #ead8f0, #d1f6dc);
-    /*グラデーションを定義*/
-    background-size: 200% 200%;
-    /*サイズを大きくひきのばす*/
-    animation: bggradient 20s ease infinite;
+    background-image: url(../img/common/whiteBg.jpg);
+    background-repeat: repeat;
 }
 
-@keyframes bggradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
 
 img {
@@ -69,9 +53,13 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ead8f0;
+    background-color: #fff;
     box-sizing: border-box;
 }
+
+
+
+
 
 .header__nav__list {
     display: flex;
@@ -81,17 +69,19 @@ header {
 
 .header__nav__item {
     padding: 1rem;
+  
 }
 
-.header__nav__item a:hover {
-    font-size: 1rem;
+.contents__innre{
+    padding-top:120px;
+    margin-top: -120px;
 }
+
+/* マウスオーバー時 */
+
 
 
 /*ポートフォリオ*/
-.portfolio {
-    margin: 5rem 0;
-}
 
 .portfolio__title {
     margin-bottom: 1rem;
@@ -101,6 +91,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
     gap: 2rem;
+    margin: 5rem 0;
 }
 
 .portfolio__item__text {
