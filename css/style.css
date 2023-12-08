@@ -53,7 +53,7 @@ ol {
 
 .wrapper {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 150px auto 0;
 }
 
 /*ヘッダー*/
@@ -87,6 +87,10 @@ header {
     gap: 2rem;
 }
 
+.portfolio__item__text {
+    text-align: center;
+    padding-top: 1rem;
+}
 
 /*フッター*/
 footer {
