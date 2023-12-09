@@ -20,6 +20,29 @@
 
 <body>
     <header id="header">
+        <div id="scrolly-video"></div>
+
+        <div class="box">
+          <img src="images/gif.png" alt="">
+        </div>
+      
+        <div id="loading">
+          <img class="spinner" src="loding.gif" alt="">
+      
+          <div>
+            <script src="https://cdn.jsdelivr.net/npm/scrolly-video@latest/dist/scrolly-video.js">
+              defer
+            </script>
+            <script>
+              new ScrollyVideo({
+                scrollyVideoContainer: "scrolly-video",
+                src: "bgmovie.mp4",
+                cover: true,
+              });
+            </script>
+          </div>
+      
+        </div>
         <h1 class="header__hd">卒業生 portfolio</h1>
 
         <nav class="header__nav">
