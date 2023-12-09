@@ -157,3 +157,19 @@ itemList33.forEach((i) => {
   <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
   itemFrame33.insertAdjacentHTML('beforeend', itemContent33);
 })
+
+//29期生
+const itemFrame29 = document.querySelector('.portfolio__item__29list');
+const itemList29 = [{
+  name: '野坂先生のを拝借',
+  img: 'img/33/33kimura.png',
+  url: 'http://pandasenpai.schoolbus.jp/',
+}];
+
+
+itemList29.forEach((i) => {
+  const { name,img,url, } = i;
+  const itemContent29 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
+  itemFrame29.insertAdjacentHTML('beforeend', itemContent29);
+})

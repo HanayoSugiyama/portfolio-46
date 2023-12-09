@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*---------------------
+        46期生部分
+---------------------*/
+.kajimura {
+    margin: 5rem 0;
+}
+
+.kajimura__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+    gap: 2rem;
+}
+.kajimura__grid img {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+.kajimura__icon {
+    width: 2rem;
+}
+
+.team__title {
+    margin: 0.5rem 0;
+}
