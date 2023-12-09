@@ -45,22 +45,6 @@ ol {
 }
 
 
-
-
-/*=============== スクロールアニメーション =================*/
-
-.box {
-    opacity: 0;
-    height: 100vh;
-  }
-  
-  #scrolly-video {
-    width: 100%;
-    margin: 0 auto;
-    height: 100vh;
-  }
-
-
 body {
     background-image: url(../img/common/back_img.gif);
     background-size: cover;
