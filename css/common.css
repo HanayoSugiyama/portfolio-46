@@ -51,6 +51,19 @@ body {
     box-sizing: border-box;
 }
 
+/*ヘッダー*/
+header {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
 .header__nav__list {
     display: flex;
     font-size: 24px;
