@@ -26,15 +26,15 @@ itemList45.forEach((i) => {
 const itemFrame43 = document.querySelector('.portfolio__item__43list');
 const itemList43 = [{
   name: '鍵山',
-  img: 'img/43/43kagiyama.png',
+  img: '../class_43th/43/43kagiyama.png',
   url: 'https://naruminglandoll.com/',
 }, {
   name: '仁田',
-  img: 'img/43/43nitta.png',
+  img: '../class_43th/43/43nitta.png',
   url: 'https://kanan-portfolio.studio.site/',
 }, {
   name: '福本',
-  img: 'img/43/43hukumoto.png',
+  img: '../class_43th/43/43hukumoto.png',
   url: 'http://www.fukumoto-yuka.com',
 }];
 
