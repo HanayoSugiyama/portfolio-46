@@ -57,7 +57,12 @@ ol {
     height: 100vh;
 }
 
+.header__hd {
+    text-align: center;
+}
+
 /*=============== nav =================*/
+
   .header__nav__list {
     display: flex;
     font-size: 24px;
@@ -81,8 +86,8 @@ ol {
 
 .header__nav__item a:hover img {
     opacity: 1;
-   margin: 0    auto;
-   width: 3rem;
+    margin: 0 auto;
+    width: 3rem;
 }
 
 /*=============== メッセージ =================*/
