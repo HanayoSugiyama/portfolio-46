@@ -50,15 +50,15 @@ itemList43.forEach((i) => {
 const itemFrame42 = document.querySelector('.portfolio__item__42list');
 const itemList42 = [{
   name: '内田',
-  img: 'img/42/42utida.png',
+  img: '../class_42th/42/42utida.png',
   url: 'http://uchida-0105.littlestar.jp/portfolio/',
 }, {
   name: '尾川',
-  img: 'img/42/42ogawa.png',
+  img: '../class_42th/42/42ogawa.png',
   url: 'http://akevi.site/',
 },{
   name: '中元',
-  img: 'img/42/42nakamoto.png',
+  img: '../class_42th/42/42nakamoto.png',
   url: 'https://misa-33.com',
 }];
 
@@ -74,11 +74,11 @@ itemList42.forEach((i) => {
 const itemFrame41 = document.querySelector('.portfolio__item__41list');
 const itemList41 = [{
   name: '長濱',
-  img: 'img/41/41nagahama.png',
+  img: '../class_41th/41/41nagahama.png',
   url: 'https://nagahama378-portfolio.com/',
 }, {
   name: '石川',
-  img: 'img/41/41isikawa.png',
+  img: '../class_41th/41/41isikawa.png',
   url: 'https://chiemiid.studio.site',
 }];
 
@@ -94,7 +94,7 @@ itemList41.forEach((i) => {
 const itemFrame38 = document.querySelector('.portfolio__item__38list');
 const itemList38 = [{
   name: '内山',
-  img: 'img/38/38utiyama.png',
+  img: '../class_38th/38/38utiyama.png',
   url: 'https://onl.tw/QAEJ1pj',
 }];
 
@@ -110,11 +110,11 @@ itemList38.forEach((i) => {
 const itemFrame37 = document.querySelector('.portfolio__item__37list');
 const itemList37 = [{
   name: 'ヤマムラ',
-  img: 'img/37/37yamamura.png',
+  img: '../class_37th/37/37yamamura.png',
   url: 'https://yukino-portfolio.studio.site/',
 }, {
   name: '清水',
-  img: 'img/37/37simizu.png',
+  img: '../class_37th/37/37simizu.png',
   url: 'https://kayana-shimizu.github.io/kayana/',
 }];
 
@@ -130,7 +130,7 @@ itemList37.forEach((i) => {
 const itemFrame35 = document.querySelector('.portfolio__item__35list');
 const itemList35 = [{
   name: '早水',
-  img: 'img/35/35hayamizu.png',
+  img: '../class_35th/35/35hayamizu.png',
   url: 'http://catch-star-1234.gonna.jp/portfolio/',
 }];
 
