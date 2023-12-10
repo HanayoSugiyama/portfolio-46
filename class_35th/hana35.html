@@ -15,7 +15,6 @@
 
     <!--JS-->
     <script src="../js/common.js" defer></script>
-    <script src="../js/senior.js" defer></script>
 </head>
 
 <body>
@@ -29,7 +28,7 @@
                 <li class="header__nav__item"><a href="#section2" class="header__nav__line">portfolio <img src="../img/common/good.gif" alt="good"></a></li>
             </ul>
         </nav>
-       
+
     </header>
 
     <main class="wrapper">
@@ -56,8 +55,28 @@
         <section id="section2" class="portfolio contents__innre">
             <h1 class="portfolio__title">35期生 portfolio</h1>
             <ul class="portfolio__grid portfolio__item__35list">
-                <!-- insert contents by service.js -->
             </ul>
+            <script>
+                //35期生
+                const itemFrame35 = document.querySelector('.portfolio__item__35list');
+                const itemList35 = [{
+                    name: '早水',
+                    img: '../class_35th/35/35hayamizu.png',
+                    url: 'http://catch-star-1234.gonna.jp/portfolio/',
+                }];
+
+
+                itemList35.forEach((i) => {
+                    const {
+                        name,
+                        img,
+                        url,
+                    } = i;
+                    const itemContent35 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
+                    itemFrame35.insertAdjacentHTML('beforeend', itemContent35);
+                })
+            </script>
         </section>
         <!--874 岡本先生のロケット-->
         <a href="#top" class="top__link" id="page-top"><img src="../img/common/TOP.jpg" alt=""></a>

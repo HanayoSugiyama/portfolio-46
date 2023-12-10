@@ -15,7 +15,6 @@
 
     <!--JS-->
     <script src="../js/common.js" defer></script>
-    <script src="../js/senior.js" defer></script>
 </head>
 
 <body>
@@ -29,7 +28,7 @@
                 <li class="header__nav__item"><a href="#section2" class="header__nav__line">portfolio <img src="../img/common/good.gif" alt="good"></a></li>
             </ul>
         </nav>
-       
+
     </header>
 
     <main class="wrapper">
@@ -56,8 +55,37 @@
         <section id="section2" class="portfolio contents__innre">
             <h1 class="portfolio__title">42期生 portfolio</h1>
             <ul class="portfolio__grid portfolio__item__42list">
-                <!-- insert contents by service.js -->
             </ul>
+
+            <script>
+                //42期生
+                const itemFrame42 = document.querySelector('.portfolio__item__42list');
+                const itemList42 = [{
+                    name: '内田',
+                    img: '../class_42th/42/42utida.png',
+                    url: 'http://uchida-0105.littlestar.jp/portfolio/',
+                }, {
+                    name: '尾川',
+                    img: '../class_42th/42/42ogawa.png',
+                    url: 'http://akevi.site/',
+                }, {
+                    name: '中元',
+                    img: '../class_42th/42/42nakamoto.png',
+                    url: 'https://misa-33.com',
+                }];
+
+
+                itemList42.forEach((i) => {
+                    const {
+                        name,
+                        img,
+                        url,
+                    } = i;
+                    const itemContent42 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
+                    itemFrame42.insertAdjacentHTML('beforeend', itemContent42);
+                })
+            </script>
         </section>
         <!--874 岡本先生のロケット-->
         <a href="#top" class="top__link" id="page-top"><img src="../img/common/TOP.jpg" alt=""></a>

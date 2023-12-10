@@ -15,7 +15,6 @@
 
     <!--JS-->
     <script src="../js/common.js" defer></script>
-    <script src="../js/senior.js" defer></script>
 </head>
 
 <body>
@@ -29,7 +28,7 @@
                 <li class="header__nav__item"><a href="#section2" class="header__nav__line">portfolio <img src="../img/common/good.gif" alt="good"></a></li>
             </ul>
         </nav>
-       
+
     </header>
 
     <main class="wrapper">
@@ -56,8 +55,28 @@
         <section id="section2" class="portfolio contents__innre">
             <h1 class="portfolio__title">38期生 portfolio</h1>
             <ul class="portfolio__grid portfolio__item__38list">
-                <!-- insert contents by service.js -->
             </ul>
+            <script>
+                //38期生
+                const itemFrame38 = document.querySelector('.portfolio__item__38list');
+                const itemList38 = [{
+                    name: '内山',
+                    img: '../class_38th/38/38utiyama.png',
+                    url: 'https://onl.tw/QAEJ1pj',
+                }];
+
+
+                itemList38.forEach((i) => {
+                    const {
+                        name,
+                        img,
+                        url,
+                    } = i;
+                    const itemContent38 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
+                    itemFrame38.insertAdjacentHTML('beforeend', itemContent38);
+                })
+            </script>
         </section>
         <!--874 岡本先生のロケット-->
         <a href="#top" class="top__link" id="page-top"><img src="../img/common/TOP.jpg" alt=""></a>
