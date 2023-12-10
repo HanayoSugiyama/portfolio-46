@@ -49,14 +49,15 @@ ol {
 .box {
     opacity: 0;
     height: 100vh;
-  }
+}
   
   #scrolly-video {
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     height: 100vh;
-  }
+}
 
+/*=============== nav =================*/
   .header__nav__list {
     display: flex;
     font-size: 24px;
@@ -84,16 +85,14 @@ ol {
    width: 3rem;
 }
 
-/* マウスオーバー時 */
-
-
-/*ヘッダーの下に表示*/
-.contents__innre {
-    padding-top: 120px;
-    margin-top: -120px;
+/*=============== メッセージ =================*/
+dt {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-/*フッター*/
+/*=============== フッター =================*/
 footer {
     line-height: 100px;
     text-align: center;
