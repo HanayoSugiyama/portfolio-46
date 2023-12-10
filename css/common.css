@@ -45,11 +45,6 @@ ol {
 }
 
 
-body {
-    background-image: url(../img/common/back_img.gif);
-    background-size: cover;
-    box-sizing: border-box;
-}
 
 /*ヘッダー*/
 header {
@@ -60,7 +55,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-image: url(../img/common/back_img.gif);
+    background-size: cover;
     box-sizing: border-box;
 }
 
@@ -91,7 +87,6 @@ header {
    width: 3rem;
 }
 
-/* マウスオーバー時 */
 
 
 /*ヘッダーの下に表示*/
