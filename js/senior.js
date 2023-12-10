@@ -2,15 +2,15 @@
 const itemFrame45 = document.querySelector('.portfolio__item__45list');
 const itemList45 = [{
   name: 'キタヤマ',
-  img: 'img/45/45kitayama.png',
+  img: '../class_45th/45/45kitayama.png',
   url: 'https://k-ktym.gloomy.jp/portfolio/index.html',
 }, {
   name: '増田',
-  img: 'img/45/45masuda.png',
+  img: '../class_45th/45/45masuda.png',
   url: 'https://www.masudakeishi.site/',
 }, {
   name: '代田',
-  img: 'img/45/45daida.png',
+  img: '../class_45th/45/45daida.png',
   url: 'https://misuzudaida.com',
 }];
 
