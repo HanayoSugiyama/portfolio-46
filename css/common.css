@@ -163,7 +163,7 @@ strong {
 
 .okamo__grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
     margin: 5rem 0;
 }
@@ -178,10 +178,18 @@ strong {
     justify-content: center;
     align-items: center;
     width: 250px;
+    height: auto;
     position: fixed;
     right: 20px;
     bottom: 20px;
     z-index: 500;
+}
+
+@media(max-width: 600px) {
+    .top__link.open {
+        width: 100px;
+        height: auto;
+    }
 }
 
 
