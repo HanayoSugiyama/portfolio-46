@@ -83,8 +83,8 @@ header {
 
 .header__nav__item a:hover img {
     opacity: 1;
-   margin: 0    auto;
-   width: 3rem;
+    margin: 0 auto;
+    width: 3rem;
 }
 
 
@@ -106,8 +106,9 @@ header {
     grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
     gap: 2rem;
 }
+
 .sotusei__grid img {
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .sotusei__icon {
@@ -153,20 +154,20 @@ header {
 /*topへもどるボタン*/
 .top__link {
     display: none;
-  }
-  
-  .top__link.open {
+}
+
+.top__link.open {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 250px;
     position: fixed;
     right: 20px;
-    bottom: 80px;
+    bottom: 20px;
     z-index: 500;
-  }
-  
+}
+
+
 
 /*フッター*/
 footer {
@@ -175,3 +176,9 @@ footer {
     vertical-align: middle;
 }
 
+/*=============== メッセージ =================*/
+dt {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
