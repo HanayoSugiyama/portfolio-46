@@ -57,6 +57,10 @@ ol {
     height: 100vh;
 }
 
+#scrolly-video video{
+    object-fit: cover;
+}
+
 .header__hd {
     text-align: center;
 }
