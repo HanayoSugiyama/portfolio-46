@@ -59,6 +59,7 @@ header {
     background-image: url(../img/common/back_img.gif);
     background-size: cover;
     box-sizing: border-box;
+    padding-top: 1rem;
 }
 
 .header__nav__list {
@@ -92,8 +93,8 @@ header {
 
 /*ヘッダーの下に表示*/
 .contents__innre {
-    padding-top: 120px;
-    margin-top: -120px;
+    padding-top: 150px;
+    margin-top: -150px;
 }
 
 
