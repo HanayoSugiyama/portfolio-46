@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/*----------------------
+        共通設定
+----------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 18px;
+    color: #333333;
+    background-image: url(../img/common/whiteBg.jpg);
+    background-repeat: repeat;
+}
+
+
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 150px auto 0;
+}
+
+
+
+/*ヘッダー*/
+header {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../img/common/back_img.gif);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.header__nav__list {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.header__nav__item {
+    display: inline-block;
+    padding: 1rem 3rem 1rem;
+    position: relative;
+}
+
+.header__nav__item a {
+    position: static;
+}
+
+.header__nav__item a img {
+    position: absolute;
+    opacity: 0;
+}
+
+.header__nav__item a:hover img {
+    opacity: 1;
+   margin: 0    auto;
+   width: 3rem;
+}
+
+
+
+/*ヘッダーの下に表示*/
+.contents__innre {
+    padding-top: 120px;
+    margin-top: -120px;
+}
+
+
+/*卒制*/
+.sotusei {
+    margin: 5rem 0;
+}
+
+.sotusei__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+    gap: 2rem;
+}
+.sotusei__grid img {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+.sotusei__icon {
+    width: 2rem;
+}
+
+.team__title {
+    margin: 0.5rem 0;
+}
+
+.saiyo {
+    margin-left: 2rem;
+    width: 2.5rem;
+    box-shadow: none;
+}
+
+
+/*区切り線*/
+.line {
+    height: 120px;
+    text-align: center;
+}
+
+
+/*ポートフォリオ*/
+.portfolio__title {
+    margin-bottom: 1rem;
+}
+
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+    gap: 2rem;
+    margin: 5rem 0;
+}
+
+.portfolio__item__text {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+/*topへもどるボタン*/
+.top__link {
+    display: none;
+  }
+  
+  .top__link.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 500;
+  }
+  
+
+/*フッター*/
+footer {
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+

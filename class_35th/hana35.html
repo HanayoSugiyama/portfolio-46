@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=   , initial-scale=1.0">
+    <title>35期|ﾊﾟｿｺﾝｽｸｰﾙHA*NA 卒制&portfolio集</title>
+
+    <!--resscss-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--自作css-->
+    <link rel="stylesheet" href="../css/common.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--JS-->
+    <script src="../js/common.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="header__hd">35期生 卒制&portfolio</h1>
+
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li class="header__nav__item"><a href="../index.html#home" class="header__nav__line">ホーム <img src="../img/common/good.gif" alt="good"></a></li>
+                <li class="header__nav__item"><a href="#section1" class="header__nav__line">卒業制作<img src="../img/common/good.gif" alt="good"></a></li>
+                <li class="header__nav__item"><a href="#section2" class="header__nav__line">portfolio <img src="../img/common/good.gif" alt="good"></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="wrapper">
+        <section id="section1" class="sotusei contents__innre">
+            <h1><img class="sotusei__icon" src="../img/common/sotugyo.gif" alt="">卒業制作<img class="sotusei__icon" src="../img/common/sotugyo.gif" alt=""></h1>
+            <div class="sotusei__grid ">
+                <div class="sotusei__team-a">
+                    <h2 class="team__title">team-A</h2>
+                    <a href="https://pc-hana.com/morita/team-a/" target="_blank"> <img src="35/35a.jpg" alt="aチーム卒業制作"></a>
+                </div>
+                <div class="sotusei__team-b">
+                    <h2 class="team__title">team-B</h2>
+                    <a href="https://pc-hana.com/morita/team-b/" target="_blank"> <img src="35/35b.jpg" alt="bチーム卒業制作"></a>
+                </div>
+                <div class="sotusei__team-c">
+                    <h2 class="team__title">team-C</h2>
+                    <a href="https://pc-hana.com/morita/team-c/" target="_blank"> <img src="35/35c.jpg" alt="cチーム卒業制作"></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="line"><img src="../img/common/line.gif" alt="区切り"></div>
+
+        <section id="section2" class="portfolio contents__innre">
+            <h1 class="portfolio__title">35期生 portfolio</h1>
+            <ul class="portfolio__grid portfolio__item__35list">
+            </ul>
+            <script>
+                //35期生
+                const itemFrame35 = document.querySelector('.portfolio__item__35list');
+                const itemList35 = [{
+                    name: '早水',
+                    img: '../class_35th/35/35hayamizu.png',
+                    url: 'http://catch-star-1234.gonna.jp/portfolio/',
+                }];
+
+
+                itemList35.forEach((i) => {
+                    const {
+                        name,
+                        img,
+                        url,
+                    } = i;
+                    const itemContent35 = `<li><a href="${url}" target="_blank"><div class="portfolio__item__img"><img src="${img}" alt="${name}"></div>
+  <div class="portfolio__item__text"><p>${name}</p></div></a></li>`;
+                    itemFrame35.insertAdjacentHTML('beforeend', itemContent35);
+                })
+            </script>
+        </section>
+        <!--874 岡本先生のロケット-->
+        <a href="#top" class="top__link" id="page-top"><img src="../img/common/TOP.jpg" alt=""></a>
+
+    </main>
+
+    <footer id="footer">&copy;パソコンスクールＨＡ＊ＮＡ</footer>
+</body>
+
+</html>
