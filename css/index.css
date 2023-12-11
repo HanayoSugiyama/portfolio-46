@@ -50,8 +50,8 @@ ol {
     opacity: 0;
     height: 100vh;
 }
-  
-  #scrolly-video {
+
+#scrolly-video {
     width: 100vw;
     margin: 0 auto;
     height: 100vh;
@@ -63,16 +63,24 @@ ol {
 
 /*=============== nav =================*/
 
-  .header__nav__list {
-    display: flex;
+.header__nav__list {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2rem;
     font-size: 24px;
     justify-content: center;
+   
 }
 
 .header__nav__item {
     display: inline-block;
     padding: 1rem 2.5rem 1rem;
     position: relative;
+    background-color:#eebbcb ;
+    border-radius: 50%;
+    height: 155px;
 }
 
 .header__nav__item a {
@@ -90,6 +98,8 @@ ol {
     width: 3rem;
 }
 
+
+
 /*=============== メッセージ =================*/
 dt {
     padding: 0.5rem 0;
@@ -103,4 +113,3 @@ footer {
     text-align: center;
     vertical-align: middle;
 }
-

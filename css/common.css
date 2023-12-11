@@ -118,6 +118,12 @@ header {
     margin: 0.5rem 0;
 }
 
+.saiyo {
+    margin-left: 2rem;
+    width: 2.5rem;
+    box-shadow: none;
+}
+
 
 /*区切り線*/
 .line {
