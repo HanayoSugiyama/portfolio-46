@@ -94,7 +94,9 @@ ol {
     font-size: 1.5rem;
 }
 
-
+.red {
+    color: red;
+}
 /*=============== フッター =================*/
 footer {
     line-height: 100px;
