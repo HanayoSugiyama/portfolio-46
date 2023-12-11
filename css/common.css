@@ -125,6 +125,10 @@ header {
     box-shadow: none;
 }
 
+strong {
+    padding: 0 0.5rem;
+    color: red;
+}
 
 /*区切り線*/
 .line {
@@ -177,7 +181,8 @@ footer {
 }
 
 /*=============== メッセージ =================*/
-dt {
+.message dt {
+    margin-top: 1rem;
     padding: 0.5rem 0;
     font-size: 1.5rem;
     font-weight: bold;

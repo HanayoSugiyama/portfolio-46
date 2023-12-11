@@ -19,12 +19,12 @@ const itemList46 = [ /* {
   img: 'img/',
   url: '',
 
-}, */ {
+}, */ /*{
   name: '19 濱野',
   img: 'img/',
   url: '',
 
-}, {
+}, */{
   name: '21 前田',
   img: '../class_46th/46/46maeda.png',
   url: 'https://erihanapcschool.github.io/portfolio/',
